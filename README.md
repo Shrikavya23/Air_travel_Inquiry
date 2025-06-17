@@ -1,4 +1,4 @@
-# Air_travel_Inquiry using multi-agents
+# Multi-agents for Air travel inquiry
 
 ## Design Choice
 *Modular Architecture:
