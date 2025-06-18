@@ -2,7 +2,8 @@
 
 ## Set up Instructions:
 1.	Created a virtual environment and activate that
-	- Command: python –m venv air_travel_agents<br>air_travel_agents\source\activate
+	- Command: python –m venv air_travel_agents<br>
+ 		   air_travel_agents\source\activate
 
 2.	Created a folder smart_travel_agents to add all files
 
