@@ -55,8 +55,7 @@
 
 ## Workflow
 
-<pre> ```text User Input ↓ Router Agent ↓ (LLM Classification) ↓ ┌────────────┬────────────┐ ↓ ↓ Live Info Agent Analytics Agent ↓ ↓ Real-time Data BigQuery Results ↓ ↓ ←─── Response ───→ ``` </pre>
-
+![workflow](https://github.com/user-attachments/assets/e52de7e8-bb8f-4313-a5ec-8ce68a926662)
 
 
 ## Design Choice
