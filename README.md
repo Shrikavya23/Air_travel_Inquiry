@@ -75,3 +75,28 @@ Configuration details (API keys, project IDs, etc.) are kept in a .env file and 
 *Interactive CLI Interface:
 A simple command-line interface is used for user interaction, making it easy to test and demonstrate the functionality.
 
+
+## Input and Output
+
+
+
+![image](https://github.com/user-attachments/assets/cc9fea0e-23d2-4bd9-8d5c-e022830bdba5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
