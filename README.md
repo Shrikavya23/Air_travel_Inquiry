@@ -8,9 +8,9 @@ Command: python –m venv air_travel_agents
 2.	Created a folder smart_travel_agents to add all files
 
 	Initially create requirements.txt: contain libraries to install namely
-- requests: to make http calls to Gemini and Aviationstack APIs
-- google-cloud-biquery : To interact with google BigQuery
-- python-dotenv : To load API keys from .env file
+	- requests: to make http calls to Gemini and Aviationstack APIs
+	- google-cloud-biquery : To interact with google BigQuery
+	- python-dotenv : To load API keys from .env file
 Finally pip install –r requirements.txt
 Created an .env file that contains API keys namely Gemini API key, Aviationstack API key, info about dataset name, tables and project_id. This file is later added to .gitignore so that it is not accessible by others. 
 
