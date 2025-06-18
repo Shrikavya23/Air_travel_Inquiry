@@ -14,8 +14,8 @@
 	Created an .env file that contains API keys namely Gemini API key, Aviationstack API key, info about dataset name, tables 	and project_id. This file is later added to .gitignore so that it is not accessible by others. 
 
 3.	Downloaded google SDK so that I can interact with google cloud services through terminal.
- - After that run 'gcloud init': to set up google cloud project
- - 'gcloud auth application-default login': authenticate so local code can use Bigquery and APIs.
+	 - After that run 'gcloud init': to set up google cloud project
+	 - 'gcloud auth application-default login': authenticate so local code can use Bigquery and APIs.
 	
 4.	Set up Google BigQuery
 	- Created a project air_travel_multi_agents and noted the project_id.
