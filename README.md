@@ -53,6 +53,19 @@
 	config.py
 	- This config.py file securely loads API keys and project configuration values from a .env file using environment 		variables.
 
+## Workflow
+
+User Input  Router Agent
+                                       ↓ LLM
+     ┌───────────┴────────────┐
+     ↓                                                                     ↓
+Live Info Agent                                   Analytics Agent
+     ↓                                                                      ↓
+ Real-time data                                            BigQuery results
+     ↓                                                                       ↓
+                       <──── Response ────>
+
+
 
 ## Design Choice
 *Modular Architecture:
@@ -81,6 +94,9 @@ A simple command-line interface is used for user interaction, making it easy to 
 
 
 ![image](https://github.com/user-attachments/assets/cc9fea0e-23d2-4bd9-8d5c-e022830bdba5)
+
+
+
 
 
 
