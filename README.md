@@ -55,15 +55,7 @@
 
 ## Workflow
 
-User Input  Router Agent
-                                       ↓ LLM
-     ┌───────────┴────────────┐
-     ↓                                                                     ↓
-Live Info Agent                                   Analytics Agent
-     ↓                                                                      ↓
- Real-time data                                            BigQuery results
-     ↓                                                                       ↓
-                       <──── Response ────>
+<pre> ```text User Input ↓ Router Agent ↓ (LLM Classification) ↓ ┌────────────┬────────────┐ ↓ ↓ Live Info Agent Analytics Agent ↓ ↓ Real-time Data BigQuery Results ↓ ↓ ←─── Response ───→ ``` </pre>
 
 
 
